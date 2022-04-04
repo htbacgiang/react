@@ -525,5 +525,45 @@ export const photos = [
 		width: 6,
 		height: 4
 	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982047291_d62381883b_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982600315_dccf3cf05e_b.jpg",
+		width: 4,
+		height: 6
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982600245_65c1f00502_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982329584_6948303846_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982601010_14fd96ac6f_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51981042507_cffc24d48a_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982115548_d1c7a6fe58_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982115813_3e96cd5673_b.jpg",
+		width: 6,
+		height: 4
+	  },
   ];
   

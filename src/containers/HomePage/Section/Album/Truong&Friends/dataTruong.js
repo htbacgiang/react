@@ -243,6 +243,53 @@ export const photos = [
 		height: 4
 	  },
 	  {
+		src: "https://live.staticflickr.com/65535/51982048541_5fecceaa80_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/49754948963_f8b044f38b_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/49951558377_83bc2eaf55_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982330799_a11869039d_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		  //Thủy Điện
+		src: "https://live.staticflickr.com/65535/51982048916_5409fc9cdd_b.jpg",
+		width: 6,
+		height: 4
+	  },
+
+	  {
+		src: "https://live.staticflickr.com/65535/51982115918_98872667f9_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982600180_031ae36d7d_b.jpg",
+		width: 3,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51981041347_f77d0629c0_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982329204_6e2dab4eb1_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
 		src: "https://live.staticflickr.com/65535/51832076201_abbf07230d_b.jpg",
 		width: 6,
 		height: 4

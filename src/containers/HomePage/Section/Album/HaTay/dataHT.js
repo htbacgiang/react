@@ -65,6 +65,11 @@ export const photos = [
 		height: 4
 	  },
 	  {
+		src: "https://live.staticflickr.com/65535/51982047356_990fc4e35a_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
 		src: "https://live.staticflickr.com/65535/51823144106_6cfa355472_b.jpg",
 		width: 6,
 		height: 4
