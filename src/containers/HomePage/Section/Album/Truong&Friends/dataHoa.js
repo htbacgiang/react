@@ -1,34 +1,40 @@
 export const photos = [
   {
-    src: "https://live.staticflickr.com/65535/51979884668_319eaf4953_b.jpg",
+    src: "https://live.staticflickr.com/65535/51981744695_5c06392321_c.jpg",
     width: 6,
     height: 4
     },
     {
-    src: "https://live.staticflickr.com/65535/51980372765_e8739a36b7_b.jpg",
+    src: "https://live.staticflickr.com/65535/51981263848_a6f6f5e3bd.jpg",
     width: 4,
     height: 6
     },
     {
-    src: "https://live.staticflickr.com/65535/51979884858_2b9934132e_b.jpg",
+    src: "https://live.staticflickr.com/65535/51981744940_f24ecfb2a7.jpg",
     width: 4,
     height: 6
     },
     {
-    src: "https://live.staticflickr.com/65535/51980094209_90e9837e73_b.jpg",
+    src: "https://live.staticflickr.com/65535/51981194186_70fe5fd939.jpg",
     width: 4,
     height: 6
     },
     {
-    src: "https://live.staticflickr.com/65535/51980094964_59a0f9a42c_b.jpg",
+      src: "https://live.staticflickr.com/65535/51981504074_ff2c5106ed.jpg",
+      width: 4,
+      height: 6
+      },
+       {
+    src: "https://live.staticflickr.com/65535/51980188767_5fa7c11707.jpg",
     width: 4,
     height: 6
     },
-	{
-	  src: "https://live.staticflickr.com/65535/51831808704_3c171ac87f_b.jpg",
-	  width: 6,
-	  height: 4
-	},
+    // {
+    // src: "",
+    // width: 4,
+    // height: 6
+    // },
+
       {
         src: "https://live.staticflickr.com/65535/51831575548_5c440a9bf1_b.jpg",
         width: 6,
