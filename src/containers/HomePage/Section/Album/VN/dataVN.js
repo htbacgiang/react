@@ -565,5 +565,25 @@ export const photos = [
 		width: 6,
 		height: 4
 	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982417414_516afc5513_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982203173_f8a750e2df_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982688130_41fc15c26b_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51982202928_234eccc4d2_b.jpg",
+		width: 6,
+		height: 4
+	  },
   ];
   
