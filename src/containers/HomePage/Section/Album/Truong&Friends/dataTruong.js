@@ -268,7 +268,16 @@ export const photos = [
 		width: 6,
 		height: 4
 	  },
-
+ 	 {
+		src: "https://live.staticflickr.com/65535/51983658869_f04d2b2e1c_b.jpg",
+		width: 4,
+		height: 6
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/51983928265_962bf992fe_b.jpg",
+		width: 6,
+		height: 4
+	  },
 	  {
 		src: "https://live.staticflickr.com/65535/51982115918_98872667f9_b.jpg",
 		width: 6,
