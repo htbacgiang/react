@@ -3,8 +3,8 @@ import _ from 'lodash';
 require('dotenv').config();
 
 const instance = axios.create({
-    baseURL: 'http://localhost:8080',
-    // baseURL: 'http://13.230.175.235:8080',
+    // baseURL: 'http://localhost:8080',
+    baseURL: 'http://13.230.175.235:8080',
     withCredentials: true
 });
 

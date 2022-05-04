@@ -531,11 +531,10 @@ export const photos = [
 		height: 4
 	  },
 	  {
-		src: "https://live.staticflickr.com/65535/51982600315_dccf3cf05e_b.jpg",
-		width: 4,
-		height: 6
+		src: "https://live.staticflickr.com/65535/51982329584_6948303846_b.jpg",
+		width: 6,
+		height: 4
 	  },
-	
 	  {
 		src: "https://live.staticflickr.com/65535/51982601010_14fd96ac6f_b.jpg",
 		width: 6,
