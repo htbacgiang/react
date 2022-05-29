@@ -3,7 +3,7 @@ require('dotenv').config();
 export default {
     api: {
         // API_BASE_URL: 'http://localhost:8080',
-        API_BASE_URL: 'http://13.230.175.235:8080',
+        API_BASE_URL: 'http://54.169.68.138:8888',
         ROUTER_BASE_NAME: null,
     },
     app: {
