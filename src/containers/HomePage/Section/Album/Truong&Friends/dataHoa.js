@@ -1,5 +1,31 @@
 export const photos = [
-  {
+  
+    {
+      src: "https://live.staticflickr.com/65535/52111573873_2a568fc093_b.jpg",
+      width: 4,
+      height: 6
+      },
+       {
+      src: "https://live.staticflickr.com/65535/52111782499_a6774f89d3_b.jpg",
+      width: 6,
+      height: 4
+      },
+         {
+      src: "https://live.staticflickr.com/65535/52110507397_b9efc9c487_b.jpg",
+      width: 6,
+      height: 4
+      },
+         {
+      src: "https://live.staticflickr.com/65535/52112044130_166ac79560_b.jpg",
+      width: 4,
+      height: 6
+      },
+      {
+        src: "https://live.staticflickr.com/65535/52110507497_2d4a09fd47_b.jpg",
+        width: 6,
+        height: 4
+        },
+        {
     src: "https://live.staticflickr.com/65535/51981744695_5c06392321_c.jpg",
     width: 6,
     height: 4
