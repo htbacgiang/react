@@ -4,6 +4,8 @@ import Navbar from '../../../Header/Navbar';
 import Album from '../Album';
 import ListTruong from './ListTruong';
 import {Helmet} from "react-helmet";
+import Footer from '../../../Header/Footer';
+
 import '../../Album/Hatay.scss';
 class DetailBlog extends Component {
     render() {
@@ -21,6 +23,8 @@ class DetailBlog extends Component {
          <h1> Trường và những người bạn</h1>
         </div>
         <ListTruong />
+        <Footer />
+
           </>
              
         );

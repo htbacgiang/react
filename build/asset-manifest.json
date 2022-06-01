@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.cff17e8f.chunk.css",
-    "main.js": "/static/js/main.e2908142.chunk.js",
-    "main.js.map": "/static/js/main.e2908142.chunk.js.map",
+    "main.css": "/static/css/main.5f463031.chunk.css",
+    "main.js": "/static/js/main.92dde0ca.chunk.js",
+    "main.js.map": "/static/js/main.92dde0ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6c6abf33.js",
     "runtime-main.js.map": "/static/js/runtime-main.6c6abf33.js.map",
     "static/css/2.a89b6ac8.chunk.css": "/static/css/2.a89b6ac8.chunk.css",
-    "static/js/2.ee99078e.chunk.js": "/static/js/2.ee99078e.chunk.js",
-    "static/js/2.ee99078e.chunk.js.map": "/static/js/2.ee99078e.chunk.js.map",
+    "static/js/2.4ca8b081.chunk.js": "/static/js/2.4ca8b081.chunk.js",
+    "static/js/2.4ca8b081.chunk.js.map": "/static/js/2.4ca8b081.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a89b6ac8.chunk.css.map": "/static/css/2.a89b6ac8.chunk.css.map",
-    "static/css/main.cff17e8f.chunk.css.map": "/static/css/main.cff17e8f.chunk.css.map",
-    "static/js/2.ee99078e.chunk.js.LICENSE.txt": "/static/js/2.ee99078e.chunk.js.LICENSE.txt",
+    "static/css/main.5f463031.chunk.css.map": "/static/css/main.5f463031.chunk.css.map",
+    "static/js/2.4ca8b081.chunk.js.LICENSE.txt": "/static/js/2.4ca8b081.chunk.js.LICENSE.txt",
     "static/media/8nambsa.00149dc7.jpg": "/static/media/8nambsa.00149dc7.jpg",
     "static/media/banner1.d290394b.png": "/static/media/banner1.d290394b.png",
     "static/media/blogpost1.a17aea21.jpg": "/static/media/blogpost1.a17aea21.jpg",
@@ -20,6 +20,8 @@
     "static/media/blogpost4.5bb6a37a.jpg": "/static/media/blogpost4.5bb6a37a.jpg",
     "static/media/blogpost5.6ec26b87.jpg": "/static/media/blogpost5.6ec26b87.jpg",
     "static/media/blogpost6.2fcd09c8.jpg": "/static/media/blogpost6.2fcd09c8.jpg",
+    "static/media/blogpost7.252078fe.jpg": "/static/media/blogpost7.252078fe.jpg",
+    "static/media/blogpost8.aab790b4.jpg": "/static/media/blogpost8.aab790b4.jpg",
     "static/media/bsatv3.dfe32cdb.jpg": "/static/media/bsatv3.dfe32cdb.jpg",
     "static/media/chieubong.aea67b01.jpg": "/static/media/chieubong.aea67b01.jpg",
     "static/media/styles.scss": "/static/media/fa-solid-900.d279d01b.svg",
@@ -39,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.6c6abf33.js",
     "static/css/2.a89b6ac8.chunk.css",
-    "static/js/2.ee99078e.chunk.js",
-    "static/css/main.cff17e8f.chunk.css",
-    "static/js/main.e2908142.chunk.js"
+    "static/js/2.4ca8b081.chunk.js",
+    "static/css/main.5f463031.chunk.css",
+    "static/js/main.92dde0ca.chunk.js"
   ]
 }

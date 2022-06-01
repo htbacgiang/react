@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Navbar from '../../../Header/Navbar';
 import Album from '../Album';
 import ListVN from './listVN';
+import Footer from '../../../Header/Footer';
 import {Helmet} from "react-helmet";
 import '../../Album/Hatay.scss';
 class DetailBlog extends Component {
@@ -13,7 +14,7 @@ class DetailBlog extends Component {
                 <title>Album ảnh | Việt Nam quê hương tôi </title>
                 <meta 
                 name="description" 
-                content="Chào mừng bạn đến với website cá nhân của Ngô Quang Trường" />
+                content="Quê hương Việt Nam của tôi" />
                  </Helmet>
         <Navbar />
         <Album />
@@ -21,6 +22,7 @@ class DetailBlog extends Component {
          <h1> Việt Nam quê hương tôi </h1>
         </div>
         <ListVN />
+        <Footer />
           </>
              
         );

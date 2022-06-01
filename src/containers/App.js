@@ -19,6 +19,8 @@ import TruongFriend from './HomePage/Section/Album/Truong&Friends/TruongFriend';
 import BSA from './HomePage/Section/Album/BSA/BSA';
 import BusHN from './HomePage/Section/Album/BusHN/BusHN';
 import VietNam from './HomePage/Section/Album/VN/VietNam';
+import NhatBan from './HomePage/Section/Album/NhatBan/Nhatban';
+import Linhtinh from './HomePage/Section/Album/Linhtinh/Linhtinh';
 import NotFound from './HomePage/NotFound';
 import { CustomToastCloseButton } from '../components/CustomToast';
 import  CustomScrollbars from '../components/CustomScrollbars';
@@ -63,6 +65,10 @@ class App extends Component {
                                 <Route path="/album/bus-ha-noi" exact component={BusHN} />
                                 <Route path="/album/bsa" exact component={BSA} />
                                 <Route path="/album/viet-nam-que-huong-toi" exact component={VietNam} />
+                                <Route path="/album/nhat-ban-den-va-yeu" exact component={NhatBan} />
+                                <Route path="/album/co-vai-thu-dang-yeu" exact component={Linhtinh} />
+
+
                                 <Route path="*" exact component = {NotFound} />
 
                             </Switch>

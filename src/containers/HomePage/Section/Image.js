@@ -12,6 +12,9 @@ import blogpost3 from '../../../assets/blog/blogpost3.jpg';
 import blogpost4 from '../../../assets/blog/blogpost4.jpg';
 import blogpost5 from '../../../assets/blog/blogpost5.jpg';
 import blogpost6 from '../../../assets/blog/blogpost6.jpg';
+import blogpost7 from '../../../assets/blog/blogpost7.jpg';
+import blogpost8 from '../../../assets/blog/blogpost8.jpg';
+
 
 
 class Image extends Component {
@@ -40,7 +43,7 @@ class Image extends Component {
             </div>
         </div>
         <div className="row">
-            <div className="col-md-4 col-sm-6">
+            <div className="col-md-3 col-sm-6">
                 <div className="blog-post">
                     <Link to ={`/album/viet-nam-que-huong-toi`}> 
                     <div className="blog-thumb">
@@ -55,7 +58,7 @@ class Image extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+            <div className="col-md-3 col-sm-6">
                 <div className="blog-post">
                      <Link to ={`/album/ha-tay-que-lua`}> 
                     <div className="blog-thumb">
@@ -69,7 +72,7 @@ class Image extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+            <div className="col-md-3 col-sm-6">
                 <div className="blog-post">
                 <Link to ={`/album/truong-va-nhung-nguoi-ban`}> 
                     <div className="blog-thumb">
@@ -84,7 +87,7 @@ class Image extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+            <div className="col-md-3 col-sm-6">
                 <div className="blog-post">
                     <Link to ={`/album/bsa`}> 
                     <div className="blog-thumb">
@@ -98,7 +101,7 @@ class Image extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+            <div className="col-md-3 col-sm-6">
                 <div className="blog-post">
                     <Link to ={`/album/bus-ha-noi`}> 
                     <div className="blog-thumb">
@@ -112,7 +115,8 @@ class Image extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+
+            <div className="col-md-3 col-sm-6">
                 <div className="blog-post">
                    <Link to ={`/album/design`}> 
                     <div className="blog-thumb">
@@ -127,6 +131,37 @@ class Image extends Component {
                     </div>
                 </div>
             </div>
+            <div className="col-md-3 col-sm-6">
+                <div className="blog-post">
+                   <Link to ={`/album/co-vai-thu-dang-yeu`}> 
+                    <div className="blog-thumb">
+                        <img src={blogpost7} alt="" />
+                    </div>
+                   </Link>    
+
+                    <div className="img-content">
+                        <div className="content-show">
+                            <h4><a href="single-post.html">Có vài thứ đáng yêu</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+                <div className="blog-post">
+                   <Link to ={`/album/nhat-ban-den-va-yeu`}> 
+                    <div className="blog-thumb">
+                        <img src={blogpost8} alt="" />
+                    </div>
+                   </Link>    
+
+                    <div className="img-content">
+                        <div className="content-show">
+                            <h4><a href="single-post.html">Nhật Bản đến và yêu</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

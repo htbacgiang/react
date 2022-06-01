@@ -448,6 +448,36 @@ export const photos = [
 		width: 6,
 		height: 4
 		},
+		{
+			src: "https://live.staticflickr.com/65535/52114569723_2b698783d0_b.jpg",
+			width: 6,
+			height: 4
+			},
+			  {
+			src: "https://live.staticflickr.com/65535/52114530681_52d1a3d948_b.jpg",
+			width: 6,
+			height: 4
+			},
+			  {
+			src: "https://live.staticflickr.com/65535/52114530666_03c366ea1b_b.jpg",
+			width: 6,
+			height: 4
+			},
+			  {
+			src: "https://live.staticflickr.com/65535/52114776179_6fbc2e4339_b.jpg",
+			width: 3,
+			height: 4
+			},
+			  {
+			src: "https://live.staticflickr.com/65535/52114775979_afa5dcdbb3_b.jpg",
+			width: 4,
+			height: 3
+			},
+			  {
+			src: "https://live.staticflickr.com/65535/52114569703_087643f287_b.jpg",
+			width: 3,
+			height: 4
+			},
 	  
   ];
   

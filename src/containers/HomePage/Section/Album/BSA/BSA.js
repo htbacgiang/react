@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import {Helmet} from "react-helmet";
 import Navbar from '../../../Header/Navbar';
 import Album from '../Album';
-import ListBSA from './listBSA'
+import ListBSA from './listBSA';
+import Footer from '../../../Header/Footer';
 import '../../Album/Hatay.scss';
 class DetailBlog extends Component {
     render() {
@@ -13,7 +14,7 @@ class DetailBlog extends Component {
                 <title>Album ảnh | BSA - Hội sinh viên Bắc Giang </title>
                 <meta 
                 name="description" 
-                content="Chào mừng bạn đến với website cá nhân của Ngô Quang Trường" />
+                content="Hội sinh viên Bắc Giang tại Hà Nội nhé" />
                 
           </Helmet>
         <Navbar />
@@ -22,6 +23,7 @@ class DetailBlog extends Component {
          <h1> BSA - Hội sinh viên Bắc Giang </h1>
         </div>
         <ListBSA />
+        <Footer />
           </>
         
         );

@@ -47,6 +47,9 @@ class Video extends Component {
                        <li><a> <Link to={`/album/bsa`}> BSA </Link> </a></li>
                        <li><a> <Link to={`/album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
                        <li><a> <Link to={`/album/design`}> Design </Link> </a></li>
+                       <li><a> <Link to={`/album/co-vai-thu-dang-yeu`}> Những thứ đáng yêu </Link> </a></li>
+                       <li><a> <Link to={`/album/nhat-ban-den-va-yeu`}> Nhật Bản đến và yêu </Link> </a></li>
+
             </ul>
           </li>
           <li><a> <Link to={`/blog`}> Bài biết </Link> </a></li>
@@ -66,6 +69,8 @@ class Video extends Component {
                        <li><a> <Link to={`/album/bsa`}> BSA </Link> </a></li>
                        <li><a> <Link to={`/album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
                        <li><a> <Link to={`/album/design`}> Design </Link> </a></li>
+                       <li><a> <Link to={`/album/co-vai-thu-dang-yeu`}> Những thứ đáng yêu </Link> </a></li>
+                       <li><a> <Link to={`/album/nhat-ban-den-va-yeu`}> Nhật Bản đến và yêu </Link> </a></li>
                       </ul>
                     </li>
                     <li><a> <Link to={`/blog`}> Bài viết </Link> </a></li>

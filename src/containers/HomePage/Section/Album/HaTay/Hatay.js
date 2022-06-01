@@ -4,6 +4,7 @@ import {Helmet} from "react-helmet";
 import Navbar from '../../../Header/Navbar';
 import Album from '../Album';
 import ListHT from './ListHT';
+import Footer from '../../../Header/Footer';
 import '../../Album/Hatay.scss';
 class DetailBlog extends Component {
     render() {
@@ -13,7 +14,7 @@ class DetailBlog extends Component {
                 <title>Album ảnh | Hà Tây quê lụa</title>
                 <meta 
                 name="description" 
-                content="Chào mừng bạn đến với website cá nhân của Ngô Quang Trường" />
+                content="Nhứng hình ảnh đẹp nhất về quê hương Hà Tây mà tôi thực hiện trong suốt 6 năm" />
           </Helmet>
         <Navbar />
         <Album />
@@ -21,6 +22,8 @@ class DetailBlog extends Component {
          <h1> Hà Tây quê lụa</h1>
         </div>
         <ListHT />
+        <Footer />
+
           </>
              
         );
