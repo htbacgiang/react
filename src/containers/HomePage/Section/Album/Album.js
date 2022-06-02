@@ -20,28 +20,37 @@ class Album extends Component {
         return (
             <>
             <Navbar />
-            <div className='header-album'>
-             <Link to ={`/album/viet-nam-que-huong-toi`}> 
-                <div className='thumlb-album'>
-                    <img src={blogpost1} />
+            <div className="album-img ">
+                <div className="album1">
+                    <div className="header-album">
+                    <Link to ={`/album/viet-nam-que-huong-toi`}> 
+                            <div className='thumlb-album'>
+                                <img src={blogpost1} />
+                            </div>
+                        </Link>
+                        
+                        <Link to ={`/album/ha-tay-que-lua`}> 
+                            <div className='thumlb-album'>
+                                <img src={blogpost2} />
+                            </div>
+                        </Link>
+                        <Link to ={`/album/truong-va-nhung-nguoi-ban`}> 
+                            <div className='thumlb-album'>
+                                <img src={blogpost3} />
+                            </div>
+                        </Link>
+                        <Link to ={`/album/bsa`}> 
+                            <div className='thumlb-album'>
+                                <img src={blogpost4} />
+                            </div>
+                        </Link>
+
+                      
+                    </div>
                 </div>
-             </Link>
-             <Link to ={`/album/ha-tay-que-lua`}> 
-                <div className='thumlb-album'>
-                    <img src={blogpost2} />
-                </div>
-             </Link>
-             <Link to ={`/album/truong-va-nhung-nguoi-ban`}> 
-                <div className='thumlb-album'>
-                    <img src={blogpost3} />
-                </div>
-             </Link>
-             <Link to ={`/album/bsa`}> 
-                <div className='thumlb-album'>
-                    <img src={blogpost4} />
-                </div>
-             </Link>
-             <Link to ={`/album/bus-ha-noi`}> 
+                <div className="album2">
+                    <div className="header-album">
+                    <Link to ={`/album/bus-ha-noi`}> 
                 <div className='thumlb-album'>
                     <img src={blogpost5} />
                 </div>
@@ -61,8 +70,19 @@ class Album extends Component {
                     <img src={blogpost8} />
                 </div>
              </Link>
+
+                      
+                    </div>
+                </div>
+
+                </div>
+
+
+
+            
+            
+            
              
-            </div>
 
             </>
         );

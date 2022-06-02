@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;600;800&display=swap');
 
-.header-album{
-    height: 80px;
-    width: 100%;
+.album-img{
+   margin-top: 100px;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+
+}
+
+
+.header-album{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
     .thumlb-album{
         max-height: 80px;
         max-width: 80px;
@@ -31,4 +37,17 @@
     .thumlb-album{
         border-radius: 5px;
     }
+    .ha-tay{
+        margin-top: 30px;
+    }
+    .album-img{
+        display: block;
+        .album1{
+            width:100%;
+        }
+        .album2{
+            width: 100%;
+        }
+    }
+  
 }

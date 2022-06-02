@@ -6,9 +6,11 @@ import Truong from "./Truong";
 import DiHanh from "./diHanh";
 import MeiMei from "./MeiMei";
 import CHoa from "./CHoa";
+import Huyen from "./Huyen";
 import TaoMeo from "./TaoMeo";
 import LinhBlue from "./LinhBLue";
 import HungBlue from "./HungBlue";
+
 function ListAlbum() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -43,6 +45,9 @@ function ListAlbum() {
           <Button variant="outline-secondary"
           className={toggleState === 7 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(7)}> Dì Hạnh</Button>   
+               <Button variant="outline-primary"
+          className={toggleState === 8 ? "tabs active-tabs" : "tabs"}
+          onClick={() => toggleTab(8)}> Huyền XT2 </Button>   
 
         </div>
       
@@ -96,6 +101,13 @@ function ListAlbum() {
             <h2>Dì Hạnh - Cao Phương Hạnh</h2>
             </div> <hr />
             <DiHanh />
+        </div>
+        <div
+          className={toggleState === 8 ? "content  active-content" : "content"}>
+            <div className="container"> 
+            <h2>Huyền XT2</h2>
+            </div> <hr />
+            <Huyen />
         </div>
        
 
