@@ -1,4 +1,5 @@
 export const photos = [
+  
 	  {
 		src: "https://live.staticflickr.com/65535/51823506909_71e650406b_b.jpg",
 		width: 6,
@@ -24,6 +25,11 @@ export const photos = [
 		width: 6,
 		height: 4
 	  },
+     {
+    src: "https://live.staticflickr.com/65535/52143867910_91318887ea_b.jpg",
+    width: 6,
+    height: 4
+    },
     {
 		src: "https://live.staticflickr.com/65535/51823509409_eba6748fa2_b.jpg",
 		width: 6,

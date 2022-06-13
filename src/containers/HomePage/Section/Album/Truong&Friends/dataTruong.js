@@ -478,6 +478,16 @@ export const photos = [
 			width: 3,
 			height: 4
 			},
+			{
+			src: "https://live.staticflickr.com/65535/52143864830_c633a1a6bf_b.jpg",
+			width: 4,
+			height: 6
+			},
+			{
+			src: "https://live.staticflickr.com/65535/52142360617_51d9eb3e27_b.jpg",
+			width: 6,
+			height: 4
+			},
 	  
   ];
   

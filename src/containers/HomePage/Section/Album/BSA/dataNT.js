@@ -1,5 +1,26 @@
 export const photos = [
 	{
+		src: "https://live.staticflickr.com/65535/52123081577_f56c51082e_b.jpg",
+		width: 7,
+		height: 3
+		},
+		{
+		src: "https://live.staticflickr.com/65535/52143388236_619182271f_b.jpg",
+		width: 6,
+		height: 4
+		},
+		{
+		src: "https://live.staticflickr.com/65535/52143617184_3b078ed471_b.jpg",
+		width: 6,
+		height: 4
+		},
+		{
+		src: "https://live.staticflickr.com/65535/52143398573_5350f8e447_b.jpg",
+		width: 6,
+		height: 4
+		},
+
+		{
 		src: "https://live.staticflickr.com/65535/51823273243_ecc2b22edc_b.jpg",
 		width: 6,
 		height: 4
