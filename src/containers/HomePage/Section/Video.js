@@ -20,8 +20,6 @@ import phimngannthd from '../../../assets/thumlbnail/phimngannthd.jpg';
 import quehuongvn from '../../../assets/thumlbnail/quehuongvn.jpg';
 import rainbow from '../../../assets/thumlbnail/rainbow.webp';
 import hatayquelua from '../../../assets/thumlbnail/hatayquelua.jpg';
-import vekhuhoi from '../../../assets/thumlbnail/vekhuhoi.png';
-
 
 
 import $ from 'jquery';
@@ -203,14 +201,6 @@ class Video extends Component {
                              <div className="gallery">
                         <div className="item">
                             <img src={phimngannthd} data-id="_d47RmG3zXQ?rel=0"/>
-                            <div className="youtube_icon">
-                                <img src={iconYoutube}/>
-                              </div>
-                             </div>
-                             </div>
-                             <div className="gallery">
-                        <div className="item">
-                            <img src={vekhuhoi} data-id="q8CZvwuV83s?rel=0"/>
                             <div className="youtube_icon">
                                 <img src={iconYoutube}/>
                               </div>
