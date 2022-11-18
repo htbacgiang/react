@@ -5,6 +5,7 @@ import Navbar from '../Header/Navbar';
 import './Intro.scss';
 import Img1 from './../../../assets/illustrations/intro.png'
 import Img2 from './../../../assets/illustrations/about.png'
+import {Helmet} from "react-helmet";
 
 class Banner extends Component {
 
@@ -16,7 +17,19 @@ class Banner extends Component {
     render() {
         
         return (
+          
             <React.Fragment>
+               <Helmet>
+                <title>Ngô Quang Trường | Giới thiệu </title> 
+                <meta 
+                name="description" 
+                content= {"Chào mừng bạn đã đến với website của Ngô Quang Trường"} />
+                <meta name="og:type" content="website" />  
+                <meta property="og:url" content="https://truongnq.vn/about" />
+                <meta property="og:title" content="Chào mừng bạn đến với website của NQT" />
+                <meta property="og:image" content="https://live.staticflickr.com/65535/51955836234_c089d649a0_b.jpg"/>
+                <meta property="og:description" content="Xin chào tôi là Ngô Quang Trường"/>
+                 </Helmet>
                  <Navbar/>
                  <section class="py-5">
 
@@ -25,7 +38,7 @@ class Banner extends Component {
                     <div class="col-md-5 col-lg-7 order-md-1 pt-8"><img class="img-fluid" src={Img1} alt="" /></div>
                     <div class="col-md-7 col-lg-5 text-md-start pt-5 pt-md-9">
                     <h2 class="mb-4 fw-bold">TRUONGNQ.VN <br class="d-block d-lg-none d-xl-block" /></h2>
-                    <p class="mt-3 mb-4">Cảm ơn bạn đã ghé thăm website https://truongnq.vn <br />Trang web này là nơi để tôi giới thiệu bản thân và chia sẻ những suy nghĩ cá nhân, hơn 1000 bức ảnh, hàng chục video và những ấn phẩm truyền thông mà tôi đã thực hiện trước đây <br />
+                    <p class="mt-3 mb-4">Cảm ơn bạn đã ghé thăm website https://truongnq.vn <br />Trang web này là nơi để tôi giới thiệu bản thân, chia sẻ những suy nghĩ cá nhân, hơn 1000 bức ảnh, hàng chục video và những ấn phẩm truyền thông mà tôi đã thực hiện trước đây <br />
                     * Xin tự giới thiệu, tôi là <b className='bold' > Ngô Quang Trường </b>
                     <br /> - Tôi được sinh ra trong những năm cuối của thế kỷ XX tại Hà Tây quê lụa nhưng hiện tại đang sinh sống và làm việc tại khu Cháy, Ứng Hòa, Hà Nội. Tôi tốt nghiệp chuyên ngành Điện tử máy tính tại trường Học viện Công nghệ Bưu chính Viễn thông. 
                     <br /> - Theo chiêm tinh học thì tôi là một người hướng ngoại điều đó thể hiện qua việc tôi rất thích đi giao lưu làm quen với những người xa lạ, nhưng lại vừa hướng nội qua việc luôn có cảm giác xa cách với những người thân quen.
