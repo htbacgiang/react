@@ -1,4 +1,50 @@
 export const photos = [
+  {
+    src: "https://live.staticflickr.com/65535/52508112054_dc01af3be2_b.jpg",
+    width: 4,
+    height: 6
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52507360872_fa0ffcc978_b.jpg",
+      width: 4,
+      height: 6
+      },
+   {
+      src: "https://live.staticflickr.com/65535/52508390848_9f00cb337a_b.jpg",
+      width: 4,
+      height: 6
+      },
+     {
+      src: "https://live.staticflickr.com/65535/52508121844_b72e8a600d_b.jpg",
+      width: 4,
+      height: 6
+      },
+  {
+    src: "https://live.staticflickr.com/65535/52507370977_de6c800141_b.jpg",
+    width: 4,
+    height: 6
+    },
+      {
+    src: "https://live.staticflickr.com/65535/52508317080_4e03c7ebcf_b.jpg",
+    width: 4,
+    height: 6
+    },
+      {
+    src: "https://live.staticflickr.com/65535/52507842021_3c769d3371_b.jpg",
+    width: 4,
+    height: 6
+    },
+      {
+    src: "https://live.staticflickr.com/65535/52508112194_9a8acabec0_b.jpg",
+    width: 4,
+    height: 6
+    },
+      {
+    src: "https://live.staticflickr.com/65535/52508391468_e9c7095a47_b.jpg",
+    width: 6,
+    height: 4
+    },
+  
     {
     src: "https://live.staticflickr.com/65535/52327480752_7502147c19_b.jpg",
     width: 6,

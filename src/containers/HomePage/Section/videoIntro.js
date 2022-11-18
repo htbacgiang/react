@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./videoIntro.scss";
+import lapTrinhTraiTim from '../../../assets/youtube/lapTrinhTraiTim.mp4';
 
 export default function App() {
   const videoEl = useRef(null);
@@ -25,8 +26,8 @@ export default function App() {
           loop
           muted
           controls
-          alt="All the devices"
-          src="https://live.staticflickr.com/video/52401433060/ca9721a467/1080p.mp4?s=eyJpIjo1MjQwMTQzMzA2MCwiZSI6MTY2NDc4MjAzMiwicyI6IjEwMjdhNmE5ODUzOTUyYjQ0N2FlZGFiYjdhYTJjZTM5YjkxYmRhY2QiLCJ2IjoxfQ"
+          alt=""
+          src="https://live.staticflickr.com/video/52401433060/ca9721a467/1080p.mp4?s=eyJpIjo1MjQwMTQzMzA2MCwiZSI6MTY2ODc4MDc3MSwicyI6IjQ0YWE2YTA1MDFjMmIyODg5MThjMzBmZTI5NTY5NDVmNjdlOTNiZWIiLCJ2IjoxfQ"
           ref={videoEl}
         />
       </div>

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../Header/Navbar';
 import './Intro.scss';
-import Img1 from './../../../assets/illustrations/hero-header.png'
+import Img1 from './../../../assets/illustrations/intro.png'
 import Img2 from './../../../assets/illustrations/about.png'
 
 class Banner extends Component {
@@ -24,14 +24,20 @@ class Banner extends Component {
                 <div class="row align-items-center">
                     <div class="col-md-5 col-lg-7 order-md-1 pt-8"><img class="img-fluid" src={Img1} alt="" /></div>
                     <div class="col-md-7 col-lg-5 text-md-start pt-5 pt-md-9">
-                    <h2 class="mb-4 display-2 fw-bold">Tôi là ai <br class="d-block d-lg-none d-xl-block" />Trường NQ.</h2>
-                    <p class="mt-3 mb-4">Data Warehouse is a data storage area that <br />has been tested for security, so you can store<br />your data here safely but not be afraid of <br />being stolen by others.</p>
+                    <h2 class="mb-4 fw-bold">TRUONGNQ.VN <br class="d-block d-lg-none d-xl-block" /></h2>
+                    <p class="mt-3 mb-4">Cảm ơn bạn đã ghé thăm website https://truongnq.vn <br />Trang web này là nơi để tôi giới thiệu bản thân và chia sẻ những suy nghĩ cá nhân, gần 1000 bức ảnh, hàng chục video và những ấn phẩm truyền thông mà tôi đã thực hiện trước đây <br />
+                    * Xin tự giới thiệu, tôi là <b className='bold' > Ngô Quang Trường </b>
+                    <br /> - Tôi có mặt trên thế giới này trong thế kỷ XX, tôi sinh ra và lên tại Hà Tây quê lụa hiện tại đang sinh sống và làm việc tại Khu Cháy, Ứng Hòa, Hà Nội. Tôi tốt nghiệp chuyên ngành Điện tử máy tính tại trường Học viện Công nghệ Bưu chính Viễn thông. 
+                    <br /> - Theo chiêm tinh học thì tôi là một người hướng ngoại điều đó thể hiện qua việc tôi rất thích đi giao lưu làm quen với những người xa lạ, nhưng lại vừa hướng nội qua việc luôn có cảm giác xa cách với những người thân quen.
+                    <br /> - Con số chủ đạo là số <b className='bold'> 8 </b>
+                    <br /> - Quan điểm sống Lợi mình, Lợi người, Lợi chúng sinh.</p>
+            
                     </div>
                 </div>
                 </div>
                 </section>
 
-                  <section class="py-4">
+                  {/* <section class="py-4">
                 <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -40,7 +46,7 @@ class Banner extends Component {
                         <div class="col-md-5 col-lg-6 text-md-center"><img class="img-fluid" src={Img2} alt="" /></div>
                         <div class="col-md-7 col-lg-6 px-md-2 px-xl-6 text-center text-md-start">
                             <div class="card-body px-4 py-5 p-lg-3 p-md-4">
-                            <h1 class="mb-4 fw-bold">We are a high-level data<br class="d-md-none d-xxl-block" />storage bank</h1>
+                            <h1 class="mb-4 fw-bold"> <br class="d-md-none d-xxl-block" />storage bank</h1>
                             <p class="card-text">The place to store various data that you can access at any<br class="d-none d-xxl-block" />time through the internet and where you can carry it. <br class="d-none d-xxl-block" />This very flexible storage area has a high level of security.<br class="d-none d-xxl-block" />To enter into your own data you must enter the password<br class="d-none d-xxl-block" />that you created when you registered in this Data <br class="d-none d-xxl-block" />Warehouse. </p>
                             </div>
                         </div>
@@ -49,8 +55,8 @@ class Banner extends Component {
                     </div>
                 </div>
                 </div>
-            </section>
-        <section>
+            </section> */}
+        {/* <section>
         <div class="container-fluid py-5">
       <div class="container">
         <div class="row align-items-center">
@@ -98,7 +104,7 @@ class Banner extends Component {
         </div>
       </div>
     </div>
-        </section>
+        </section> */}
         <section>
             
         </section>
