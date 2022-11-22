@@ -12,6 +12,25 @@ export const photos = [
 		height: 4
 	  },
 	  {
+		//HN tp vì hòa bình
+		src: "https://live.staticflickr.com/65535/52516383972_1f801f6c46_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		//VNPT HN
+		src: "https://live.staticflickr.com/65535/52517338605_da7c384743_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		//Cầu nhật tân
+		src: "https://live.staticflickr.com/65535/52403731012_8527b76831_b.jpg",
+		width: 6,
+		height: 4
+	  },
+
+	  {
 		//BMT
 		src: "https://live.staticflickr.com/65535/51950827287_4e89604062_c.jpg",
 		width: 6,

@@ -21,13 +21,13 @@ export default function App() {
     <div className="videoIntro">
       <div>
         <video
-          style={{ maxWidth: "90%", width: "800px", margin: "0 auto" }}
+          style={{ maxWidth: "90%", width: "100%", margin: "0 auto" }}
           playsInline
           loop
           muted
           controls
           alt=""
-          src="https://live.staticflickr.com/video/52401433060/ca9721a467/1080p.mp4?s=eyJpIjo1MjQwMTQzMzA2MCwiZSI6MTY2ODc4MDc3MSwicyI6IjQ0YWE2YTA1MDFjMmIyODg5MThjMzBmZTI5NTY5NDVmNjdlOTNiZWIiLCJ2IjoxfQ"
+          src="https://live.staticflickr.com/video/52401433060/ca9721a467/1080p.mp4?s=eyJpIjo1MjQwMTQzMzA2MCwiZSI6MTY2OTEyNjI1MywicyI6Ijg3MDQzYjAzOGViY2JhYTNmODU5NzhiMWQzZTM3YzY5OWUwMTUzYjYiLCJ2IjoxfQ"
           ref={videoEl}
         />
       </div>

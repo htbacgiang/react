@@ -543,6 +543,12 @@ export const photos = [
 			width: 4,
 			height: 6
 			},
+			{
+			src: "https://live.staticflickr.com/65535/52516298327_42789fe50c_b.jpg",
+			width: 6,
+			height: 4
+			},
+		
 			
   ];
   
