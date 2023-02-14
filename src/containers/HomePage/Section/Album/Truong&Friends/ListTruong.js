@@ -11,6 +11,8 @@ import Huyen from "./Huyen";
 import TaoMeo from "./TaoMeo";
 import LinhBlue from "./LinhBLue";
 import HungBlue from "./HungBlue";
+import KeyLin from "./KeyLin";
+
 
 function ListAlbum() {
   const [toggleState, setToggleState] = useState(1);
@@ -52,6 +54,9 @@ function ListAlbum() {
                <Button variant="outline-primary"
           className={toggleState === 8 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(8)}> Huyền XT2 </Button>   
+           <Button variant="outline-danger"
+          className={toggleState === 10 ? "tabs active-tabs" : "tabs"}
+          onClick={() => toggleTab(10)}> KeyLin Nguyễn</Button>  
 
         </div>
       
@@ -119,6 +124,13 @@ function ListAlbum() {
             <h2>Huyền XT2</h2>
             </div> <hr />
             <Huyen />
+        </div>
+        <div
+          className={toggleState === 10 ? "content  active-content" : "content"}>
+            <div className="container"> 
+            <h2> KeyLin Nguyễn - Khánh Linh</h2>
+            </div> <hr />
+            <KeyLin />
         </div>
        
 

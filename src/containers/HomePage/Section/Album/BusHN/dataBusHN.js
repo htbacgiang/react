@@ -1,5 +1,15 @@
 export const photos = [
   {
+    src: "https://live.staticflickr.com/65535/52641596241_80c8e0a84a_b.jpg",
+    width: 4,
+    height: 6
+    },
+      {
+    src: "https://live.staticflickr.com/65535/52646319994_25028a6f09_b.jpg",
+    width: 4,
+    height: 6
+    },
+  {
     src: "https://live.staticflickr.com/65535/52401459133_db0a69d171_b.jpg",
     width: 6,
     height: 4
