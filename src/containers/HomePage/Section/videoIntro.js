@@ -27,7 +27,7 @@ export default function App() {
           muted
           controls
           alt=""
-          src="https://live.staticflickr.com/video/52401433060/ca9721a467/1080p.mp4?s=eyJpIjo1MjQwMTQzMzA2MCwiZSI6MTY2OTEyNjI1MywicyI6Ijg3MDQzYjAzOGViY2JhYTNmODU5NzhiMWQzZTM3YzY5OWUwMTUzYjYiLCJ2IjoxfQ"
+          src="https://live.staticflickr.com/video/52821293231/d019a5e2c6/1080p.mp4?s=eyJpIjo1MjgyMTI5MzIzMSwiZSI6MTY4MTY0OTYwNywicyI6IjgwMzI5MDk4YTUxZTI3ZDE1OGQ4NWMxY2IzMzllZDJiOTM0ZTFiYzMiLCJ2IjoxfQ"
           ref={videoEl}
         />
       </div>
