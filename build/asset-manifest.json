@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3c1c337b.chunk.css",
-    "main.js": "/static/js/main.c433c743.chunk.js",
-    "main.js.map": "/static/js/main.c433c743.chunk.js.map",
+    "main.js": "/static/js/main.b64e18b8.chunk.js",
+    "main.js.map": "/static/js/main.b64e18b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6c6abf33.js",
     "runtime-main.js.map": "/static/js/runtime-main.6c6abf33.js.map",
     "static/css/2.a89b6ac8.chunk.css": "/static/css/2.a89b6ac8.chunk.css",
@@ -28,10 +28,10 @@
     "static/media/styles.scss": "/static/media/fa-solid-900.d279d01b.svg",
     "static/media/fansipan.1ca06fb4.jpg": "/static/media/fansipan.1ca06fb4.jpg",
     "static/media/hatayquelua.e8d32d7f.jpg": "/static/media/hatayquelua.e8d32d7f.jpg",
+    "static/media/intro.b3539009.mp4": "/static/media/intro.b3539009.mp4",
     "static/media/intro.d957457e.png": "/static/media/intro.d957457e.png",
     "static/media/khucgiangmua.6cdbac28.jpg": "/static/media/khucgiangmua.6cdbac28.jpg",
     "static/media/la-co.c0a514a8.jpg": "/static/media/la-co.c0a514a8.jpg",
-    "static/media/lapTrinhTraiTim.67c40812.mp4": "/static/media/lapTrinhTraiTim.67c40812.mp4",
     "static/media/lhntbtt.849d91a3.jpg": "/static/media/lhntbtt.849d91a3.jpg",
     "static/media/logo.01c453bf.png": "/static/media/logo.01c453bf.png",
     "static/media/phimngannthd.6ea36845.jpg": "/static/media/phimngannthd.6ea36845.jpg",
@@ -47,6 +47,6 @@
     "static/css/2.a89b6ac8.chunk.css",
     "static/js/2.fc5c603d.chunk.js",
     "static/css/main.3c1c337b.chunk.css",
-    "static/js/main.c433c743.chunk.js"
+    "static/js/main.b64e18b8.chunk.js"
   ]
 }
