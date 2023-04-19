@@ -1,6 +1,6 @@
+
 import React, { useEffect, useRef } from "react";
 import "./videoIntro.scss";
-import intro from '../../../assets/intro.mp4';
 
 export default function App() {
   const videoEl = useRef(null);
@@ -27,7 +27,8 @@ export default function App() {
           muted
           controls
           alt=""
-          src={ intro }
+          src="https://videocdn.cos.tv/video/43876623798815744.mp4?Expires=1681994129&Signature=eFkDJARWzFIUvn9JPstbXVAnf8PRs-mXnodbEhsrFPlyBri2mnr3FGv~Odv27AtXydHkEMHhKuoczHvnJKkagSZMv10BlXoL2FsffZyt9EU87ECn-uhSvOzkEDnjciaGvfT~cIGZt7eTvISIOMzm2OH~WWj7j3wPspSBoUOu4jL0Ug3tXobaN7huAuAoceKsUCZ0EHKD3jb7VjA9cs6aoSmMVXzUEy6hqOrFuUYORO4VxJ5JwCXr8zF51RotIGRTWrDDY4hx3RwyROqtwfrneSH9bC9SUDuGB7Q5w08eyJZYRCP7ZUVSC7WPE0Odtb2phdWdPzcyyUZfM7cQWsPT6w__&Key-Pair-Id=APKAJ2AQKNFFAUYSAMUQ"
+          
           ref={videoEl}
         />
       </div>
