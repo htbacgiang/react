@@ -15,7 +15,27 @@ export const photos = [
 		height: 4
 	  },
 	  {
+		src: "https://live.staticflickr.com/65535/53146798382_48f44bbe17_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/53146798367_beec262341_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
 		src: "https://live.staticflickr.com/65535/51843758001_f0e2c24ce9_c.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/53147575689_1aa932c213_b.jpg",
+		width: 6,
+		height: 4
+	  },
+	  {
+		src: "https://live.staticflickr.com/65535/53147462405_afc50c2d89_b.jpg",
 		width: 6,
 		height: 4
 	  },
