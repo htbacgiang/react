@@ -11,8 +11,6 @@ class Video extends Component {
    
       }
     render() {
-
-         
         return (
           <>
        
@@ -56,28 +54,7 @@ class Video extends Component {
           <li><a> <Link to={`/lien-he`}> Liên hệ </Link> </a></li>
           </ul>
     </div>
-        <div className="d-none d-sm-none d-md-none d-lg-block col-lg-8">
-            <div className="menu-pc">
-                <ul>
-                    <li><a> <Link to={`/`}> Trang chủ </Link> </a></li>
-                    <li><a> <Link to={`/about`}> Giới thiệu </Link> </a></li>
-                    <li><a> <Link to={`/album`}> Album</Link> </a>
-                      <ul>
-                      <li><a> <Link to={`/album/viet-nam-que-huong-toi`}> Việt Nam quê hương tôi </Link> </a></li>
-                       <li><a> <Link to={`/album/ha-tay-que-lua`}> Hà Tây quê lụa </Link> </a></li>
-                       <li><a> <Link to={`/album/truong-va-nhung-nguoi-ban`}> Trường & Friends </Link> </a></li>
-                       <li><a> <Link to={`/album/bsa`}> BSA </Link> </a></li>
-                       <li><a> <Link to={`/album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
-                       <li><a> <Link to={`/album/design`}> Design </Link> </a></li>
-                       <li><a> <Link to={`/album/co-vai-thu-dang-yeu`}> Những thứ đáng yêu </Link> </a></li>
-                       <li><a> <Link to={`/album/nhat-ban-den-va-yeu`}> Nhật Bản đến và yêu </Link> </a></li>
-                      </ul>
-                    </li>
-                    <li><a> <Link to={`/blog`}> Bài viết </Link> </a></li>
-                    <li><a> <Link to={`/lien-he`}> Liên hệ </Link> </a></li>
-                </ul>
-            </div>
-        </div>
+      
         </div>
     </div>
           </>
