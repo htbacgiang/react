@@ -25,6 +25,11 @@ function ListAlbum() {
             </div> <hr />
              <NBImage />
         </div>
+  
+
+       
+
+        
       </div>
     </div>
   );
